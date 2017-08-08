@@ -21,10 +21,9 @@ package nl.fredt
 import java.util.Properties
 
 import grizzled.slf4j.Logging
-import org.apache.flink.streaming.api.{CheckpointingMode, TimeCharacteristic}
+import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.scala._
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer010
-import org.apache.hadoop.hdfs.server.protocol.CheckpointCommand
 
 
 
@@ -46,6 +45,10 @@ object StreamingJob extends Logging with AnsiColors {
     kafkaProps.put("max.poll.records", "50")
 
     import scala.collection.JavaConverters._
+    // Running with just one topic
+    // val inStream = env.addSource(new FlinkKafkaConsumer010[ClickEvent](Seq("TEST").asJava, new TestSerializer, kafkaProps))
+
+    // Running with two topics
     val inStream = env.addSource(new FlinkKafkaConsumer010[ClickEvent](Seq("TEST", "fraudtestinputtopic").asJava, new TestSerializer, kafkaProps))
 
     val timedInStream: DataStream[ClickEvent] = inStream.assignTimestampsAndWatermarks(new PunctAssigner).name("TIMED")
