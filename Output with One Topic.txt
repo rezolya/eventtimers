@@ -1,0 +1,241 @@
+"C:\Program Files\Java\jdk1.8.0_141\bin\java" -javaagent:C:\FT\Tools\IntelliJ.IDEA\lib\idea_rt.jar=58083:C:\FT\Tools\IntelliJ.IDEA\bin -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\FT\Projects\research\eventtimers\target\classes;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-scala_2.10\1.3.2\flink-scala_2.10-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-core\1.3.2\flink-core-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-annotations\1.3.2\flink-annotations-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-metrics-core\1.3.2\flink-metrics-core-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\hr08gt\.m2\repository\com\esotericsoftware\kryo\kryo\2.24.0\kryo-2.24.0.jar;C:\Users\hr08gt\.m2\repository\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;C:\Users\hr08gt\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\hr08gt\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\hr08gt\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\hr08gt\.m2\repository\org\apache\avro\avro\1.7.7\avro-1.7.7.jar;C:\Users\hr08gt\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\hr08gt\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\hr08gt\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\hr08gt\.m2\repository\org\xerial\snappy\snappy-java\1.0.5\snappy-java-1.0.5.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-java\1.3.2\flink-java-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-shaded-hadoop2\1.3.2\flink-shaded-hadoop2-1.3.2.jar;C:\Users\hr08gt\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\hr08gt\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Users\hr08gt\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\hr08gt\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\hr08gt\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\hr08gt\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\hr08gt\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\hr08gt\.m2\repository\commons-el\commons-el\1.0\commons-el-1.0.jar;C:\Users\hr08gt\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\hr08gt\.m2\repository\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;C:\Users\hr08gt\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\hr08gt\.m2\repository\commons-configuration\commons-configuration\1.7\commons-configuration-1.7.jar;C:\Users\hr08gt\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\hr08gt\.m2\repository\com\jcraft\jsch\0.1.42\jsch-0.1.42.jar;C:\Users\hr08gt\.m2\repository\commons-beanutils\commons-beanutils-bean-collections\1.8.3\commons-beanutils-bean-collections-1.8.3.jar;C:\Users\hr08gt\.m2\repository\commons-daemon\commons-daemon\1.0.13\commons-daemon-1.0.13.jar;C:\Users\hr08gt\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\hr08gt\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\hr08gt\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\hr08gt\.m2\repository\org\apache\commons\commons-math3\3.5\commons-math3-3.5.jar;C:\Users\hr08gt\.m2\repository\org\scala-lang\scala-reflect\2.10.4\scala-reflect-2.10.4.jar;C:\Users\hr08gt\.m2\repository\org\scala-lang\scala-library\2.10.4\scala-library-2.10.4.jar;C:\Users\hr08gt\.m2\repository\org\scala-lang\scala-compiler\2.10.4\scala-compiler-2.10.4.jar;C:\Users\hr08gt\.m2\repository\org\scalamacros\quasiquotes_2.10\2.0.1\quasiquotes_2.10-2.0.1.jar;C:\Users\hr08gt\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;C:\Users\hr08gt\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\force-shading\1.3.2\force-shading-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-streaming-scala_2.10\1.3.2\flink-streaming-scala_2.10-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-streaming-java_2.10\1.3.2\flink-streaming-java_2.10-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\sling\org.apache.sling.commons.json\2.0.6\org.apache.sling.commons.json-2.0.6.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-clients_2.10\1.3.2\flink-clients_2.10-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-runtime_2.10\1.3.2\flink-runtime_2.10-1.3.2.jar;C:\Users\hr08gt\.m2\repository\io\netty\netty-all\4.0.27.Final\netty-all-4.0.27.Final.jar;C:\Users\hr08gt\.m2\repository\org\javassist\javassist\3.18.2-GA\javassist-3.18.2-GA.jar;C:\Users\hr08gt\.m2\repository\com\data-artisans\flakka-actor_2.10\2.3-custom\flakka-actor_2.10-2.3-custom.jar;C:\Users\hr08gt\.m2\repository\com\typesafe\config\1.2.1\config-1.2.1.jar;C:\Users\hr08gt\.m2\repository\com\data-artisans\flakka-remote_2.10\2.3-custom\flakka-remote_2.10-2.3-custom.jar;C:\Users\hr08gt\.m2\repository\io\netty\netty\3.8.0.Final\netty-3.8.0.Final.jar;C:\Users\hr08gt\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\hr08gt\.m2\repository\org\uncommons\maths\uncommons-maths\1.2.2a\uncommons-maths-1.2.2a.jar;C:\Users\hr08gt\.m2\repository\com\data-artisans\flakka-slf4j_2.10\2.3-custom\flakka-slf4j_2.10-2.3-custom.jar;C:\Users\hr08gt\.m2\repository\org\clapper\grizzled-slf4j_2.10\1.0.2\grizzled-slf4j_2.10-1.0.2.jar;C:\Users\hr08gt\.m2\repository\com\github\scopt\scopt_2.10\3.5.0\scopt_2.10-3.5.0.jar;C:\Users\hr08gt\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.7.4\jackson-core-2.7.4.jar;C:\Users\hr08gt\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.7.4\jackson-databind-2.7.4.jar;C:\Users\hr08gt\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;C:\Users\hr08gt\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\hr08gt\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\hr08gt\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hr08gt\.m2\repository\com\twitter\chill_2.10\0.7.4\chill_2.10-0.7.4.jar;C:\Users\hr08gt\.m2\repository\com\twitter\chill-java\0.7.4\chill-java-0.7.4.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-optimizer_2.10\1.3.2\flink-optimizer_2.10-1.3.2.jar;C:\Users\hr08gt\.m2\repository\commons-cli\commons-cli\1.3.1\commons-cli-1.3.1.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-connector-kafka-0.10_2.11\1.3.2\flink-connector-kafka-0.10_2.11-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-connector-kafka-0.9_2.11\1.3.2\flink-connector-kafka-0.9_2.11-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\flink\flink-connector-kafka-base_2.11\1.3.2\flink-connector-kafka-base_2.11-1.3.2.jar;C:\Users\hr08gt\.m2\repository\org\apache\kafka\kafka-clients\0.10.2.1\kafka-clients-0.10.2.1.jar;C:\Users\hr08gt\.m2\repository\net\jpountz\lz4\lz4\1.3.0\lz4-1.3.0.jar;C:\Users\hr08gt\.m2\repository\org\slf4j\slf4j-log4j12\1.7.7\slf4j-log4j12-1.7.7.jar;C:\Users\hr08gt\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar" nl.fredt.StreamingJob
+14:56:36,298 INFO  nl.fredt.StreamingJob$                                        - org.apache.flink.streaming.api.scala.StreamExecutionEnvironment@5e82df6a.getExecutionPlan 
+14:56:36,834 INFO  akka.event.slf4j.Slf4jLogger                                  - Slf4jLogger started
+14:56:38,256 INFO  org.apache.kafka.clients.consumer.ConsumerConfig              - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [musasabi-kafka:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 50
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+14:56:38,256 INFO  org.apache.kafka.clients.consumer.ConsumerConfig              - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [musasabi-kafka:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 50
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+14:56:38,317 WARN  org.apache.kafka.clients.consumer.ConsumerConfig              - The configuration 'flink.poll-timeout' was supplied but isn't a known config.
+14:56:38,317 WARN  org.apache.kafka.clients.consumer.ConsumerConfig              - The configuration 'flink.poll-timeout' was supplied but isn't a known config.
+14:56:38,318 INFO  org.apache.kafka.common.utils.AppInfoParser                   - Kafka version : 0.10.2.1
+14:56:38,318 INFO  org.apache.kafka.common.utils.AppInfoParser                   - Kafka version : 0.10.2.1
+14:56:38,319 INFO  org.apache.kafka.common.utils.AppInfoParser                   - Kafka commitId : e89bffd6b2eff799
+14:56:38,319 INFO  org.apache.kafka.common.utils.AppInfoParser                   - Kafka commitId : e89bffd6b2eff799
+14:56:38,390 INFO  org.apache.kafka.clients.consumer.ConsumerConfig              - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [musasabi-kafka:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 50
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+14:56:38,394 WARN  org.apache.kafka.clients.consumer.ConsumerConfig              - The configuration 'flink.poll-timeout' was supplied but isn't a known config.
+14:56:38,394 INFO  org.apache.kafka.common.utils.AppInfoParser                   - Kafka version : 0.10.2.1
+14:56:38,394 INFO  org.apache.kafka.common.utils.AppInfoParser                   - Kafka commitId : e89bffd6b2eff799
+14:56:38,401 INFO  org.apache.kafka.clients.consumer.internals.AbstractCoordinator  - Discovered coordinator musasabi-kafka:9092 (id: 2147482646 rack: null) for group test-group.
+14:57:00,320 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(a,A,1502197010000), 1502197020287)	extracting eventtime 1502197010000
+14:57:00,322 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Collecting ClickEvent(a,A,1502197010000)
+14:57:00,326 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(a,A,1502197010000), 1502197010000)	Create WM 1502197010000
+14:57:00,326 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(b,A,1502197010010), 1502197020300)	extracting eventtime 1502197010010
+14:57:00,327 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Collecting ClickEvent(b,A,1502197010010)
+14:57:00,327 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(b,A,1502197010010), 1502197010010)	Create WM 1502197010010
+14:57:00,327 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(c,A,1502197010020), 1502197020300)	extracting eventtime 1502197010020
+14:57:00,327 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Collecting ClickEvent(c,A,1502197010020)
+14:57:00,327 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(c,A,1502197010020), 1502197010020)	Create WM 1502197010020
+14:57:00,327 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(r,A,1502197010030), 1502197020301)	extracting eventtime 1502197010030
+14:57:00,327 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Collecting ClickEvent(r,A,1502197010030)
+14:57:00,328 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(r,A,1502197010030), 1502197010030)	Create WM 1502197010030
+14:57:00,328 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(q,B,1502197010040), 1502197020301)	extracting eventtime 1502197010040
+14:57:00,329 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Collecting ClickEvent(q,B,1502197010040)
+14:57:00,329 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(q,B,1502197010040), 1502197010040)	Create WM 1502197010040
+14:57:00,330 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(c,B,1502197010050), 1502197020301)	extracting eventtime 1502197010050
+14:57:00,330 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Collecting ClickEvent(c,B,1502197010050)
+14:57:00,330 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(c,B,1502197010050), 1502197010050)	Create WM 1502197010050
+14:57:00,330 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(c,B,1502197010060), 1502197020301)	extracting eventtime 1502197010060
+14:57:00,330 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Collecting ClickEvent(c,B,1502197010060)
+14:57:00,330 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(c,B,1502197010060), 1502197010060)	Create WM 1502197010060
+14:57:00,331 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(r,B,1502197010070), 1502197020301)	extracting eventtime 1502197010070
+14:57:00,331 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Collecting ClickEvent(r,B,1502197010070)
+14:57:00,331 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(r,B,1502197010070), 1502197010070)	Create WM 1502197010070
+14:57:00,333 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(q,C,1502197010080), 1502197020302)	extracting eventtime 1502197010080
+14:57:00,334 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Dropping ClickEvent(q,C,1502197010080)
+14:57:00,335 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(q,C,1502197010080), 1502197010080)	Create WM 1502197010080
+14:57:00,335 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(c,C,1502197010090), 1502197020302)	extracting eventtime 1502197010090
+14:57:00,335 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Dropping ClickEvent(c,C,1502197010090)
+14:57:00,335 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(c,C,1502197010090), 1502197010090)	Create WM 1502197010090
+14:57:00,336 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(c,C,1502197010100), 1502197020302)	extracting eventtime 1502197010100
+14:57:00,336 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Dropping ClickEvent(c,C,1502197010100)
+14:57:00,336 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(c,C,1502197010100), 1502197010100)	Create WM 1502197010100
+14:57:00,336 INFO  nl.fredt.PunctAssigner                                        - @extractTimestamp(ClickEvent(c,C,1502197010110), 1502197020302)	extracting eventtime 1502197010110
+14:57:00,336 INFO  nl.fredt.FilterClickEvents                                    - @Source: Custom Source -> TIMED -> FILTERED (1/2)	Dropping ClickEvent(c,C,1502197010110)
+14:57:00,336 INFO  nl.fredt.PunctAssigner                                        - @checkAndGetNextWatermark(ClickEvent(c,C,1502197010110), 1502197010110)	Create WM 1502197010110
+14:57:00,371 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (2/2)	processElement ClickEvent(r,A,1502197010030) registerEventTimeTimer(1502197010055)  
+14:57:00,371 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (1/2)	processElement ClickEvent(a,A,1502197010000) registerEventTimeTimer(1502197010025)  
+14:57:00,371 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (2/2)	processElement ClickEvent(q,B,1502197010040) registerEventTimeTimer(1502197010065)  
+14:57:00,371 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (1/2)	processElement ClickEvent(b,A,1502197010010) registerEventTimeTimer(1502197010035)  
+14:57:00,371 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (1/2)	processElement ClickEvent(c,A,1502197010020) registerEventTimeTimer(1502197010045)  
+14:57:00,373 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (1/2)	onTimer 1502197010025 Collecting ClickEvent(a,A,1502197010000) 
+14:57:00,373 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (2/2)	onTimer 1502197010055 Collecting ClickEvent(r,A,1502197010030) 
+2> ClickEvent(r,A,1502197010030)
+1> ClickEvent(a,A,1502197010000)
+14:57:00,374 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (1/2)	onTimer 1502197010035 Collecting ClickEvent(b,A,1502197010010) 
+1> ClickEvent(b,A,1502197010010)
+14:57:00,374 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (2/2)	processElement ClickEvent(r,B,1502197010070) registerEventTimeTimer(1502197010095)  
+14:57:00,374 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (1/2)	processElement ClickEvent(c,B,1502197010050) registerEventTimeTimer(1502197010075)  ClickEvent(c,A,1502197010020)
+14:57:00,374 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (2/2)	onTimer 1502197010065 Collecting ClickEvent(q,B,1502197010040) 
+2> ClickEvent(q,B,1502197010040)
+14:57:00,375 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (1/2)	onTimer 1502197010045 Collecting ClickEvent(c,A,1502197010020),ClickEvent(c,B,1502197010050) 
+1> ClickEvent(c,A,1502197010020)
+14:57:00,375 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (2/2)	onTimer 1502197010095 Collecting ClickEvent(r,B,1502197010070) 
+1> ClickEvent(c,B,1502197010050)
+2> ClickEvent(r,B,1502197010070)
+14:57:00,375 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (1/2)	processElement ClickEvent(c,B,1502197010060) registerEventTimeTimer(1502197010085)  
+14:57:00,375 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (1/2)	onTimer 1502197010075 Collecting ClickEvent(c,B,1502197010060) 
+1> ClickEvent(c,B,1502197010060)
+14:57:00,375 INFO  nl.fredt.ProcessClickEvents                                   - @PROCESS -> Sink: Unnamed (1/2)	onTimer 1502197010085 Collecting  
